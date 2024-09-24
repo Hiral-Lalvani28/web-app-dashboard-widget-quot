@@ -10,7 +10,6 @@ const DashboardWidget = () => {
     <Container>
       <NavBar/>
       <StorageCard />
-      <h4 className="mt-4">Quick Access</h4>
       <QuickAccess />
     </Container>
   );

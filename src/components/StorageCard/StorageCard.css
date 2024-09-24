@@ -1,8 +1,38 @@
-.storage-card {
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .storage-card:hover {
+.storage-card:hover {
     transform: translateY(-5px); 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
   }
+  .storage-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .storage-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .used-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+  }
+  
+  .used-info span {
+    margin-right: 10px;
+  }
+  
+  .progress-bar-container {
+    width: 70px; 
+    height: 70px; 
+  }
+
+  .CircularProgressbar .CircularProgressbar-text {
+   font-weight: bold;
+    dominant-baseline: central !important;
+    font-size: 18px !important;
+}
+  

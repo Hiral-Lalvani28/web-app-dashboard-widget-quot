@@ -1,12 +1,55 @@
 .navbar-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .badge {
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 2px 6px;
-    margin-left: -10px;
-  }
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.position-relative {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px; 
+  color: gray; 
+}
+
+input[type="search"] {
+  padding-left: 30px; 
+}
+
+.icon-button {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(167, 151, 151, 0.2);
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.icon-button:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.badge {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 0.7rem;
+  border: 1.5px solid white;
+}
+
+.profile-button {
+  border: none; 
+  background: none; 
+}
+
+.profile-image {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+}
